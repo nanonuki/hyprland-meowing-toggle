@@ -1,12 +1,12 @@
 #!/bin/bash
 
-# Check for argument
+# check for argument
 if [ $# -eq 0 ]; then
 wtype " "
     exit 1
 fi
 
-# Get the random number from argument
+# get random number from argument
 case $1 in
     1)
         wtype " meow "
@@ -28,5 +28,3 @@ wtype " "
         exit 1
         ;;
 esac
-
-
