@@ -1,5 +1,9 @@
 # hyprland-meowing-toggle
 !!!NEEDS WTYPE TO WORK!!!
+add this entry to your hyprland config file:
+
+``` bind = SUPER SHIFT CONTROL, period, exec, .config/hypr/scripts/meow/toggle.sh ``` 
+
 
 toggle bind (super shift + period) for meowing between meow texts nya
 
